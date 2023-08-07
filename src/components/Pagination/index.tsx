@@ -35,7 +35,7 @@ export function Pagination(props: PaginationProps) {
           <option value={25}>25</option>
         </select>
         <div>
-          {Array.from(Array(pages), (item, index) => {
+          {Array.from(Array(pages), (index) => {
             const id = index + 1
 
             return (
